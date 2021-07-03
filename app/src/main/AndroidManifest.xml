@@ -10,16 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework_47"
         tools:ignore="AllowBackup">
-        <receiver
-            android:name=".Receiver"
-            android:enabled="true"
-            android:exported="false"
-            tools:ignore="ExportedReceiver">
-            <intent-filter>
-                <action android:name="kg.tutorialapp.action.MESSAGE"/>
-            </intent-filter>
-        </receiver>
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

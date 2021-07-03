@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">homework_47</string>
     <string name="btn_send_message">Send message</string>
+    <string name="type_message_here">Type message here</string>
 </resources>
